@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.67c443bb.css",
+    "main.js": "/portfolio/static/js/main.7caf57d2.js",
+    "static/media/food_community.gif": "/portfolio/static/media/food_community.bdd4b8cec9a0b22b5198.gif",
+    "static/media/terminus.gif": "/portfolio/static/media/terminus.53162e43482bd0876f7b.gif",
+    "static/media/wallet_thumb.png": "/portfolio/static/media/wallet_thumb.e2cca23c907db453d6f6.png",
+    "index.html": "/portfolio/index.html",
+    "main.67c443bb.css.map": "/portfolio/static/css/main.67c443bb.css.map",
+    "main.7caf57d2.js.map": "/portfolio/static/js/main.7caf57d2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.67c443bb.css",
+    "static/js/main.7caf57d2.js"
+  ]
+}
