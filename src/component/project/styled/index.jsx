@@ -2,6 +2,8 @@ import tw from "tailwind-styled-components"
 
 export const ProjectWrap = tw.div`
 container
+pt-16
+pb-5
 `
 
 export const ProjectHeader = tw.div`

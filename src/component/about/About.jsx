@@ -1,8 +1,8 @@
 import { AboutContentWrap, AboutHeaderWrap, AboutWrap } from "./styled"
 
-export const About = () => {
+export const About = ({ about }) => {
     return (
-        <AboutWrap>
+        <AboutWrap ref={about}>
             <AboutHeaderWrap>About Me</AboutHeaderWrap>
             <AboutContentWrap>안녕하세요. Cloud와 Linux에 관심이 많은 백엔드 개발자 이민수 입니다.</AboutContentWrap>
             <AboutContentWrap>

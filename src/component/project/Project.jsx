@@ -14,9 +14,9 @@ import wallet_thumb from "../../images/wallet_thumb.png"
 import terminus_thumb from "../../images/terminus.gif"
 import food_community_thumb from "../../images/food_community.gif"
 
-export const Project = () => {
+export const Project = ({ project }) => {
     return (
-        <ProjectWrap>
+        <ProjectWrap ref={project}>
             <ProjectHeader>Project</ProjectHeader>
             <ProjectSubHeader>BlockChain Wallet</ProjectSubHeader>
             <ProjectBoxWrap>

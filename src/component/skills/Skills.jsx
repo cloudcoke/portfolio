@@ -1,8 +1,8 @@
 import { SkillsTypeWrap, SkillsTypeListWrap, SkillsType, SkillsHeader, SkillsSubHeader, SkillsWrap } from "./styled"
 
-export const Skills = () => {
+export const Skills = ({ skills }) => {
     return (
-        <SkillsWrap>
+        <SkillsWrap ref={skills}>
             <SkillsHeader>Skills</SkillsHeader>
             <SkillsTypeWrap>
                 <SkillsSubHeader>Backend</SkillsSubHeader>

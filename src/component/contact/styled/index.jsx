@@ -4,7 +4,8 @@ export const ContactWrap = tw.div`
 container
 flex
 flex-wrap
-py-5
+pt-16
+pb-5
 border-solid
 border-b
 `

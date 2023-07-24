@@ -7,7 +7,8 @@ flex-wrap
 mb-8
 border-solid
 border-b
-py-5
+pt-16
+pb-5
 `
 
 export const AboutHeaderWrap = tw.div`

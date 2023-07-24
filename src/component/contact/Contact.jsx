@@ -1,8 +1,8 @@
 import { ContactTpyeWrap, ContactHeader, ContactWrap, ContactSubHeader, ContactContent, ContactLink } from "./styled"
 
-export const Contact = () => {
+export const Contact = ({ contact }) => {
     return (
-        <ContactWrap>
+        <ContactWrap ref={contact}>
             <ContactHeader>Contact</ContactHeader>
             <ContactTpyeWrap>
                 <ContactSubHeader>Email</ContactSubHeader>
